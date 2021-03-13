@@ -7,13 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class applicationcontroller
 {
-    @ResponseBody
-    @RequestMapping("/home")
-    public String Hello()
-    {
-        return "Hello from Spring";
 
-    }
 
     @RequestMapping("/Welcomepage")
     public String Welcome()
