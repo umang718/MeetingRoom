@@ -18,6 +18,11 @@ public class User
     private int mobile;
     private String Password;
 
+    public User ()
+    {
+        
+    }
+
     public User(String username, String firstname, String lastname, int mobile, String password)
     {
         super();
